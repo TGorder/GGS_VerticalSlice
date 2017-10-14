@@ -1,0 +1,557 @@
+﻿Log file open, 10/07/17 15:59:30
+LogInit:Display: Running engine for game: sep6
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1542481833) SRandInit(-1542481833).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.106659
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.10.07-19.59.31:697][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.07-19.59.31:697][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.07-19.59.31:735][  0]LogInit: Computer: DESKTOP-BVQ6MAL
+[2017.10.07-19.59.31:735][  0]LogInit: User: AlexDesktop
+[2017.10.07-19.59.31:735][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.10.07-19.59.31:735][  0]LogInit: High frequency timer resolution =3.312794 MHz
+[2017.10.07-19.59.31:736][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.10.07-19.59.31:736][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.07-19.59.31:736][  0]LogMemory: Process Physical Memory: 272.62 MB used, 272.62 MB peak
+[2017.10.07-19.59.31:736][  0]LogMemory: Process Virtual Memory: 261.08 MB used, 261.08 MB peak
+[2017.10.07-19.59.31:736][  0]LogMemory: Physical Memory: 5659.34 MB used,  10680.91 MB free, 16340.25 MB total
+[2017.10.07-19.59.31:736][  0]LogMemory: Virtual Memory: 638.44 MB used,  10680.91 MB free, 134217728.00 MB total
+[2017.10.07-19.59.31:832][  0]LogInit: Using OS detected language (en-US).
+[2017.10.07-19.59.31:832][  0]LogInit: Using OS detected locale (en-US).
+[2017.10.07-19.59.31:835][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.10.07-19.59.33:072][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.07-19.59.33:794][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.10.07-19.59.33:794][  0]LogD3D11RHI:       4058/0/8170 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2017.10.07-19.59.33:796][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.07-19.59.33:796][  0]LogD3D11RHI:       0/0/8170 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.07-19.59.33:796][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.07-19.59.33:804][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.07-19.59.33:804][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.07-19.59.33:804][  0]LogWindows: EnumDisplayDevices:
+[2017.10.07-19.59.33:804][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2017.10.07-19.59.33:804][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.10.07-19.59.33:804][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2017.10.07-19.59.33:804][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.10.07-19.59.33:804][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.10.07-19.59.33:804][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.10.07-19.59.33:804][  0]LogD3D11RHI:   Driver Version: 384.76 (internal:22.21.13.8476, unified:384.76)
+[2017.10.07-19.59.33:804][  0]LogD3D11RHI:      Driver Date: 6-27-2017
+[2017.10.07-19.59.33:804][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.07-19.59.34:470][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.07-19.59.34:510][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.10.07-19.59.34:561][  0]LogShaderCompilers: Guid format shader working directory is 25 characters bigger than the processId version (D:/Alex/UnrealProjects/sep6/Intermediate/Shaders/WorkingDirectory/25428/).
+[2017.10.07-19.59.34:561][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Alex Desktop/AppData/Local/Temp/UnrealShaderWorkingDir/365919284ED8E4229E3BB98CED65D5BD/'.
+[2017.10.07-19.59.34:561][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.10.07-19.59.36:102][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.07-19.59.36:176][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.10.07-19.59.36:257][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.07-19.59.36:341][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.10.07-19.59.36:419][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.10.07-19.59.36:498][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.07-19.59.36:566][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.07-19.59.36:646][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.07-19.59.36:715][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.10.07-19.59.36:791][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.10.07-19.59.36:877][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.07-19.59.36:983][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.07-19.59.37:079][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.07-19.59.37:165][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.07-19.59.37:239][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.07-19.59.37:395][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.07-19.59.37:395][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.07-19.59.37:469][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.10.07-19.59.37:621][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.10.07-19.59.37:664][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.10.07-19.59.37:741][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.07-19.59.37:825][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.07-19.59.37:915][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.07-19.59.37:990][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.10.07-19.59.37:990][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.10.07-19.59.38:769][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.10.07-19.59.38:889][  0]LogDerivedDataCache: Loaded boot cache 0.12s 90MB C:/Users/Alex Desktop/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.10.07-19.59.38:889][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Alex Desktop/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.10.07-19.59.38:890][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Alex/UnrealProjects/sep6/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.07-19.59.38:890][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.07-19.59.38:890][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Alex/UnrealProjects/sep6/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.07-19.59.38:890][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.07-19.59.38:911][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.07-19.59.38:923][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Alex Desktop/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.07-19.59.38:937][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.07-19.59.38:938][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.07-19.59.38:938][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.07-19.59.38:939][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.07-19.59.39:438][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.07-19.59.39:546][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.07-19.59.39:803][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.07-19.59.39:874][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.07-19.59.39:948][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.07-19.59.39:948][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.10.07-19.59.39:948][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.10.07-19.59.40:808][  0]LogNetVersion: sep6 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1248976798)
+[2017.10.07-19.59.40:885][  0]LogAssetRegistry: FAssetRegistry took 0.0273 seconds to start up
+[2017.10.07-19.59.40:988][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.056537 seconds
+[2017.10.07-19.59.40:995][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.10.07-19.59.40:995][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.10.07-19.59.40:995][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.07-19.59.41:109][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.07-19.59.44:997][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.07-19.59.45:072][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.07-19.59.46:084][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.07-19.59.46:895][  0]SourceControl: Info Source control is disabled
+[2017.10.07-19.59.46:941][  0]SourceControl: Info Source control is disabled
+[2017.10.07-19.59.47:037][  0]SourceControl: Info Source control is disabled
+[2017.10.07-19.59.47:127][  0]SourceControl: Info Source control is disabled
+[2017.10.07-19.59.47:692][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2017.10.07-19.59.47:692][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2017.10.07-19.59.47:692][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
+[2017.10.07-19.59.48:532][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.07-19.59.49:555][  0]LogEngine: Initializing Engine...
+[2017.10.07-19.59.49:576][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2017.10.07-19.59.49:924][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.07-19.59.49:924][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.07-19.59.50:202][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.07-19.59.50:237][  0]LogInit: XAudio2 using 'Back of PC (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.07-19.59.50:275][  0]LogInit: FAudioDevice initialized.
+[2017.10.07-19.59.50:334][  0]LogDerivedDataCache: Saved boot cache 0.06s 90MB C:/Users/Alex Desktop/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.10.07-19.59.50:354][  0]LogInit: Texture streaming: Enabled
+[2017.10.07-19.59.50:565][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.07-19.59.51:053][  0]LogInit: Transaction tracking system initialized
+[2017.10.07-19.59.51:630][  0]BlueprintLog: New page: Editor Load
+[2017.10.07-19.59.53:270][  0]LocalizationService: Info Localization service is disabled
+[2017.10.07-19.59.54:319][  0]LogConsoleResponse:Display: 
+[2017.10.07-19.59.54:569][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.07-19.59.54:569][  0]LogCook:Display: Mobile HDR setting 1
+[2017.10.07-19.59.55:727][  0]LogFileCache: Scanning file cache for directory 'D:/Alex/UnrealProjects/sep6/Content/' took 0.03s
+[2017.10.07-19.59.56:466][  0]SourceControl: Info Source control is disabled
+[2017.10.07-19.59.56:466][  0]Cmd: MAP LOAD FILE="D:/Alex/UnrealProjects/sep6/Content/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.07-19.59.56:543][  0]LogSlate: Took 0.000342 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.07-19.59.56:573][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.10.07-19.59.59:895][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.10.07-19.59.59:902][  0]LightingResults: New page: Lighting Build
+[2017.10.07-19.59.59:978][  0]MapCheck: New page: Map Check
+[2017.10.07-19.59.59:978][  0]LightingResults: New page: Lighting Build
+[2017.10.07-20.00.00:000][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.07-20.00.00:013][  0]LoadErrors: New page: New Map
+[2017.10.07-20.00.00:116][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.10.07-20.00.01:768][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.10.07-20.00.01:975][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.sep6
+[2017.10.07-20.00.01:975][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.10.07-20.00.01:975][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.16
+[2017.10.07-20.00.01:975][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.10.07-20.00.01:975][  0]LogTemp: BranchPath = DESKTOP-BVQ6MAL/C/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = DESKTOP-BVQ6MAL/C/Program Files/Epic Games/UE_4.16/Engine/Binaries
+[2017.10.07-20.00.01:975][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Alex Desktop\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.10.07-20.00.01:975][  0]LogCollectionManager: Loaded 0 collections in 0.002366 seconds
+[2017.10.07-20.00.02:105][  0]LogFileCache: Scanning file cache for directory 'D:/Alex/UnrealProjects/sep6/Saved/Collections/' took 0.01s
+[2017.10.07-20.00.02:105][  0]LogFileCache: Scanning file cache for directory 'D:/Alex/UnrealProjects/sep6/Content/Developers/AlexDesktop/Collections/' took 0.01s
+[2017.10.07-20.00.02:105][  0]LogFileCache: Scanning file cache for directory 'D:/Alex/UnrealProjects/sep6/Content/Collections/' took 0.01s
+[2017.10.07-20.00.02:105][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.10.07-20.00.02:123][  0]LogContentBrowser: Native class hierarchy populated in 0.0162 seconds. Added 2329 classes and 491 folders.
+[2017.10.07-20.00.02:238][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2017.10.07-20.00.02:723][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2017.10.07-20.00.02:812][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.10.07-20.00.02:939][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.10.07-20.00.02:951][  0]LogSlate: Took 0.000324 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.07-20.00.02:970][  0]LogSlate: Took 0.007895 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.07-20.00.03:224][  0]LogRenderer: Reallocating scene render targets to support 1208x600 NumSamples 1 (Frame:1).
+[2017.10.07-20.00.03:373][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.10.07-20.00.03:461][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2017.10.07-20.00.03:462][  0]LogLoad: (Engine Initialization) Total time: 34.30 seconds
+[2017.10.07-20.00.03:462][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.07 seconds
+[2017.10.07-20.00.03:462][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.10.07-20.00.03:472][  0]LogOcInput: OculusInput pre-init called
+[2017.10.07-20.00.03:472][  0]LogHMD: Starting GearVRController plugin
+[2017.10.07-20.00.03:491][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.10.07-20.00.03:522][  0]LogSlate: Took 0.007393 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.07-20.00.03:545][  1]LogAssetRegistry: Asset discovery search completed in 22.6828 seconds
+[2017.10.07-20.00.03:549][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.10.07-20.00.03:549][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000077 seconds (updated 0 objects)
+[2017.10.07-20.02.47:433][987]LogAIModule: Creating AISystem for world MainMenu
+[2017.10.07-20.02.49:120][172]LogSlate: Took 0.000295 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.07-20.02.49:396][172]LogMetaData: Removing '/Game/MainMenuHUD.MainMenuHUD_C' ref from Metadata '/Game/MainMenu/MainMenuHUD.PackageMetaData'
+[2017.10.07-20.02.49:396][172]LogMetaData: Removing '/Game/MainMenuHUD.MainMenuHUD_C:ExecuteUbergraph_MainMenuHUD' ref from Metadata '/Game/MainMenu/MainMenuHUD.PackageMetaData'
+[2017.10.07-20.02.49:396][172]LogMetaData: Removing '/Game/MainMenuHUD.MainMenuHUD_C:UserConstructionScript' ref from Metadata '/Game/MainMenu/MainMenuHUD.PackageMetaData'
+[2017.10.07-20.02.49:396][172]LogMetaData: Removing '/Game/MainMenuHUD.MainMenuHUD_C:ReceiveBeginPlay' ref from Metadata '/Game/MainMenu/MainMenuHUD.PackageMetaData'
+[2017.10.07-20.02.49:396][172]LogMetaData: Removing '/Game/MainMenuHUD.MainMenuHUD_C:DefaultSceneRoot' ref from Metadata '/Game/MainMenu/MainMenuHUD.PackageMetaData'
+[2017.10.07-20.02.49:396][172]LogMetaData: Removing '/Game/MainMenuHUD.MainMenuHUD:EventGraph.K2Node_Event_0' ref from Metadata '/Game/MainMenu/MainMenuHUD.PackageMetaData'
+[2017.10.07-20.02.49:396][172]LogMetaData: Removing '/Game/MainMenuHUD.MainMenuHUD:EventGraph.K2Node_Event_1' ref from Metadata '/Game/MainMenu/MainMenuHUD.PackageMetaData'
+[2017.10.07-20.02.49:396][172]LogMetaData: Removing '/Game/MainMenuHUD.MainMenuHUD:EventGraph.K2Node_Event_2' ref from Metadata '/Game/MainMenu/MainMenuHUD.PackageMetaData'
+[2017.10.07-20.02.49:396][172]LogMetaData: Removing '/Game/MainMenuHUD.MainMenuHUD:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/MainMenu/MainMenuHUD.PackageMetaData'
+[2017.10.07-20.02.49:396][172]LogMetaData: Removing '/Game/MainMenuHUD.SKEL_MainMenuHUD_C:DefaultSceneRoot' ref from Metadata '/Game/MainMenu/MainMenuHUD.PackageMetaData'
+[2017.10.07-20.02.49:397][172]LogMetaData: Removing '/Game/MainMenuHUD.SKEL_MainMenuHUD_C:ReceiveBeginPlay' ref from Metadata '/Game/MainMenu/MainMenuHUD.PackageMetaData'
+[2017.10.07-20.02.49:397][172]LogMetaData: Removing '/Game/MainMenuHUD.SKEL_MainMenuHUD_C:UserConstructionScript' ref from Metadata '/Game/MainMenu/MainMenuHUD.PackageMetaData'
+[2017.10.07-20.02.49:397][172]LogMetaData: Removing '/Game/MainMenuHUD.SKEL_MainMenuHUD_C:ExecuteUbergraph_MainMenuHUD' ref from Metadata '/Game/MainMenu/MainMenuHUD.PackageMetaData'
+[2017.10.07-20.02.49:397][172]LogMetaData: Removing '/Game/MainMenuHUD.SKEL_MainMenuHUD_C' ref from Metadata '/Game/MainMenu/MainMenuHUD.PackageMetaData'
+[2017.10.07-20.02.49:404][172]LogMetaData: Removing '/Game/MainMenuWidget.MainMenuWidget_C' ref from Metadata '/Game/MainMenu/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.02.49:404][172]LogMetaData: Removing '/Game/MainMenuWidget.MainMenuWidget:EventGraph.K2Node_Event_0' ref from Metadata '/Game/MainMenu/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.02.49:404][172]LogMetaData: Removing '/Game/MainMenuWidget.MainMenuWidget:EventGraph.K2Node_Event_1' ref from Metadata '/Game/MainMenu/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.02.49:404][172]LogMetaData: Removing '/Game/MainMenuWidget.MainMenuWidget:EventGraph.K2Node_Event_2' ref from Metadata '/Game/MainMenu/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.02.49:404][172]LogMetaData: Removing '/Game/MainMenuWidget.MainMenuWidget:GetVisibility_0.K2Node_FunctionResult_0' ref from Metadata '/Game/MainMenu/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.02.49:404][172]LogMetaData: Removing '/Game/MainMenuWidget.MainMenuWidget:GetVisibility_0.K2Node_FunctionEntry_0' ref from Metadata '/Game/MainMenu/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.02.49:404][172]LogMetaData: Removing '/Game/MainMenuWidget.MainMenuWidget_C:ExecuteUbergraph_MainMenuWidget' ref from Metadata '/Game/MainMenu/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.02.49:404][172]LogMetaData: Removing '/Game/MainMenuWidget.MainMenuWidget_C:1280' ref from Metadata '/Game/MainMenu/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.02.49:404][172]LogMetaData: Removing '/Game/MainMenuWidget.MainMenuWidget_C:1920' ref from Metadata '/Game/MainMenu/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.02.49:404][172]LogMetaData: Removing '/Game/MainMenuWidget.MainMenuWidget_C:4K' ref from Metadata '/Game/MainMenu/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.02.49:404][172]LogMetaData: Removing '/Game/MainMenuWidget.MainMenuWidget_C:BackButton' ref from Metadata '/Game/MainMenu/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.02.49:404][172]LogMetaData: Removing '/Game/MainMenuWidget.MainMenuWidget_C:Image_71' ref from Metadata '/Game/MainMenu/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.02.49:404][172]LogMetaData: Removing '/Game/MainMenuWidget.MainMenuWidget_C:LaunchButton' ref from Metadata '/Game/MainMenu/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.02.49:404][172]LogMetaData: Removing '/Game/MainMenuWidget.MainMenuWidget_C:MainBox' ref from Metadata '/Game/MainMenu/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.02.49:404][172]LogMetaData: Removing '/Game/MainMenuWidget.MainMenuWidget_C:MainCanvas' ref from Metadata '/Game/MainMenu/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.02.49:404][172]LogMetaData: Removing '/Game/MainMenuWidget.MainMenuWidget_C:MainCanvasPanel' ref from Metadata '/Game/MainMenu/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.02.49:404][172]LogMetaData: Removing '/Game/MainMenuWidget.MainMenuWidget_C:OptionsBox' ref from Metadata '/Game/MainMenu/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.02.49:404][172]LogMetaData: Removing '/Game/MainMenuWidget.MainMenuWidget_C:OptionsCanvasPanel' ref from Metadata '/Game/MainMenu/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.02.49:404][172]LogMetaData: Removing '/Game/MainMenuWidget.MainMenuWidget_C:QuitButton' ref from Metadata '/Game/MainMenu/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.02.49:404][172]LogMetaData: Removing '/Game/MainMenuWidget.MainMenuWidget_C:Slider_187' ref from Metadata '/Game/MainMenu/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.02.49:404][172]LogMetaData: Removing '/Game/MainMenuWidget.SKEL_MainMenuWidget_C:Slider_187' ref from Metadata '/Game/MainMenu/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.02.49:404][172]LogMetaData: Removing '/Game/MainMenuWidget.SKEL_MainMenuWidget_C:QuitButton' ref from Metadata '/Game/MainMenu/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.02.49:405][172]LogMetaData: Removing '/Game/MainMenuWidget.SKEL_MainMenuWidget_C:OptionsCanvasPanel' ref from Metadata '/Game/MainMenu/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.02.49:405][172]LogMetaData: Removing '/Game/MainMenuWidget.SKEL_MainMenuWidget_C:OptionsBox' ref from Metadata '/Game/MainMenu/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.02.49:405][172]LogMetaData: Removing '/Game/MainMenuWidget.SKEL_MainMenuWidget_C:MainCanvasPanel' ref from Metadata '/Game/MainMenu/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.02.49:405][172]LogMetaData: Removing '/Game/MainMenuWidget.SKEL_MainMenuWidget_C:MainCanvas' ref from Metadata '/Game/MainMenu/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.02.49:405][172]LogMetaData: Removing '/Game/MainMenuWidget.SKEL_MainMenuWidget_C:MainBox' ref from Metadata '/Game/MainMenu/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.02.49:405][172]LogMetaData: Removing '/Game/MainMenuWidget.SKEL_MainMenuWidget_C:LaunchButton' ref from Metadata '/Game/MainMenu/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.02.49:405][172]LogMetaData: Removing '/Game/MainMenuWidget.SKEL_MainMenuWidget_C:Image_71' ref from Metadata '/Game/MainMenu/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.02.49:405][172]LogMetaData: Removing '/Game/MainMenuWidget.SKEL_MainMenuWidget_C:BackButton' ref from Metadata '/Game/MainMenu/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.02.49:405][172]LogMetaData: Removing '/Game/MainMenuWidget.SKEL_MainMenuWidget_C:4K' ref from Metadata '/Game/MainMenu/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.02.49:405][172]LogMetaData: Removing '/Game/MainMenuWidget.SKEL_MainMenuWidget_C:1920' ref from Metadata '/Game/MainMenu/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.02.49:405][172]LogMetaData: Removing '/Game/MainMenuWidget.SKEL_MainMenuWidget_C:1280' ref from Metadata '/Game/MainMenu/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.02.49:405][172]LogMetaData: Removing '/Game/MainMenuWidget.SKEL_MainMenuWidget_C:ExecuteUbergraph_MainMenuWidget' ref from Metadata '/Game/MainMenu/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.02.49:405][172]LogMetaData: Removing '/Game/MainMenuWidget.SKEL_MainMenuWidget_C' ref from Metadata '/Game/MainMenu/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.02.49:470][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Title_Video" FILE="D:/Alex/UnrealProjects/sep6/Content/Title_Video.uasset" SILENT=true
+[2017.10.07-20.02.49:483][172]LogSavePackage: Save=9.26ms
+[2017.10.07-20.02.49:483][172]LogSavePackage: Moving 'D:/Alex/UnrealProjects/sep6/Saved/Title_Video15C327FB4AF73014A6C1CC9B88B9A75C.tmp' to 'D:/Alex/UnrealProjects/sep6/Content/Title_Video.uasset'
+[2017.10.07-20.02.49:491][172]LogSavePackage:Display: Finished SavePackage D:/Alex/UnrealProjects/sep6/Content/Title_Video.uasset
+[2017.10.07-20.02.49:511][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MadhouseTitle" FILE="D:/Alex/UnrealProjects/sep6/Content/MadhouseTitle.uasset" SILENT=true
+[2017.10.07-20.02.49:613][172]LogSavePackage: Save=87.18ms
+[2017.10.07-20.02.49:613][172]LogSavePackage: Moving 'D:/Alex/UnrealProjects/sep6/Saved/MadhouseTitle1A4BE77A485AD9D24A2CBB883DE215B5.tmp' to 'D:/Alex/UnrealProjects/sep6/Content/MadhouseTitle.uasset'
+[2017.10.07-20.02.49:617][172]LogSavePackage:Display: Finished SavePackage D:/Alex/UnrealProjects/sep6/Content/MadhouseTitle.uasset
+[2017.10.07-20.02.49:713][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu" FILE="D:/Alex/UnrealProjects/sep6/Content/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.07-20.02.50:323][172]LogSavePackage: Save=56.16ms
+[2017.10.07-20.02.50:323][172]LogSavePackage: Moving 'D:/Alex/UnrealProjects/sep6/Saved/MainMenu7B8E747345797187A70CE09E529581BF.tmp' to 'D:/Alex/UnrealProjects/sep6/Content/MainMenu.umap'
+[2017.10.07-20.02.50:326][172]LogSavePackage:Display: Finished SavePackage D:/Alex/UnrealProjects/sep6/Content/MainMenu.umap
+[2017.10.07-20.02.50:329][172]LogFileHelpers: Saving map 'MainMenu' took 0.707
+[2017.10.07-20.02.50:333][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenuHUD" FILE="D:/Alex/UnrealProjects/sep6/Content/MainMenuHUD.uasset" SILENT=true
+[2017.10.07-20.02.50:364][172]LogSavePackage: Save=28.80ms
+[2017.10.07-20.02.50:364][172]LogSavePackage: Moving 'D:/Alex/UnrealProjects/sep6/Saved/MainMenuHUD1839C46F496E46601DAE07813A331F28.tmp' to 'D:/Alex/UnrealProjects/sep6/Content/MainMenuHUD.uasset'
+[2017.10.07-20.02.50:368][172]LogSavePackage:Display: Finished SavePackage D:/Alex/UnrealProjects/sep6/Content/MainMenuHUD.uasset
+[2017.10.07-20.02.50:373][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenuWidget" FILE="D:/Alex/UnrealProjects/sep6/Content/MainMenuWidget.uasset" SILENT=true
+[2017.10.07-20.02.50:483][172]LogSavePackage: Save=107.19ms
+[2017.10.07-20.02.50:483][172]LogSavePackage: Moving 'D:/Alex/UnrealProjects/sep6/Saved/MainMenuWidget9C58E0D7420980B7376D638FDD3F2D5B.tmp' to 'D:/Alex/UnrealProjects/sep6/Content/MainMenuWidget.uasset'
+[2017.10.07-20.02.50:486][172]LogSavePackage:Display: Finished SavePackage D:/Alex/UnrealProjects/sep6/Content/MainMenuWidget.uasset
+[2017.10.07-20.02.50:489][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Title" FILE="D:/Alex/UnrealProjects/sep6/Content/Title.uasset" SILENT=true
+[2017.10.07-20.02.50:497][172]LogSavePackage: Save=5.44ms
+[2017.10.07-20.02.50:497][172]LogSavePackage: Moving 'D:/Alex/UnrealProjects/sep6/Saved/Title9856D8894BDF53C0B4411A969313F71B.tmp' to 'D:/Alex/UnrealProjects/sep6/Content/Title.uasset'
+[2017.10.07-20.02.50:500][172]LogSavePackage:Display: Finished SavePackage D:/Alex/UnrealProjects/sep6/Content/Title.uasset
+[2017.10.07-20.02.50:503][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Title_fire" FILE="D:/Alex/UnrealProjects/sep6/Content/Title_fire.uasset" SILENT=true
+[2017.10.07-20.02.50:511][172]LogSavePackage: Save=6.27ms
+[2017.10.07-20.02.50:511][172]LogSavePackage: Moving 'D:/Alex/UnrealProjects/sep6/Saved/Title_fireF185419845DF453CDC08819B8E1E7548.tmp' to 'D:/Alex/UnrealProjects/sep6/Content/Title_fire.uasset'
+[2017.10.07-20.02.50:515][172]LogSavePackage:Display: Finished SavePackage D:/Alex/UnrealProjects/sep6/Content/Title_fire.uasset
+[2017.10.07-20.02.51:019][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenuGameMode" FILE="D:/Alex/UnrealProjects/sep6/Content/MainMenuGameMode.uasset" SILENT=true
+[2017.10.07-20.02.51:044][172]LogSavePackage: Save=5.01ms
+[2017.10.07-20.02.51:044][172]LogSavePackage: Moving 'D:/Alex/UnrealProjects/sep6/Saved/MainMenuGameMode989E80F246E271CD2AF0F799E1425993.tmp' to 'D:/Alex/UnrealProjects/sep6/Content/MainMenuGameMode.uasset'
+[2017.10.07-20.02.51:047][172]LogSavePackage:Display: Finished SavePackage D:/Alex/UnrealProjects/sep6/Content/MainMenuGameMode.uasset
+[2017.10.07-20.03.33:572][697]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.07-20.03.33:741][697]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 112 classes and 0 folders.
+[2017.10.07-20.03.34:826][697]LogSlate: Took 0.000260 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.07-20.03.34:833][697]LogSlate: Took 0.005901 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.10.07-20.03.43:990][250]Cmd: MAP LOAD FILE="D:/Alex/UnrealProjects/sep6/Content/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.07-20.03.43:992][250]LightingResults: New page: Lighting Build
+[2017.10.07-20.03.43:993][250]LoadErrors: New page: Loading map: MainMenu.umap
+[2017.10.07-20.03.43:993][250]MapCheck: New page: Map Check
+[2017.10.07-20.03.43:993][250]LightingResults: New page: Lighting Build
+[2017.10.07-20.03.44:090][250]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.07-20.03.44:163][250]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.07-20.03.44:237][250]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 73.693ms to complete.
+[2017.10.07-20.03.44:240][250]LogFileHelpers: Loading map 'MainMenu' took 0.251
+[2017.10.07-20.03.47:484][535]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.07-20.03.47:653][535]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.07-20.03.47:654][535]PIE: New page: PIE session: MainMenu (Oct 7, 2017, 12:03:47 PM)
+[2017.10.07-20.03.47:654][535]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMenu
+[2017.10.07-20.03.47:657][535]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003001s)
+[2017.10.07-20.03.47:658][535]LogAIModule: Creating AISystem for world MainMenu
+[2017.10.07-20.03.47:659][535]LogPlayLevel: PIE: World Init took: (0.001110s)
+[2017.10.07-20.03.47:659][535]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMenu.MainMenu to /Game/UEDPIE_0_MainMenu.MainMenu (0.004416s)
+[2017.10.07-20.03.47:700][535]LogInit: XAudio2 using 'Back of PC (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.07-20.03.47:717][535]LogInit: FAudioDevice initialized.
+[2017.10.07-20.03.47:766][535]LogLoad: Game class is 'MainMenuGameMode_C'
+[2017.10.07-20.03.47:769][535]LogWorld: Bringing World /Game/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2017.10.07-16.03.47
+[2017.10.07-20.03.47:769][535]LogWorld: Bringing up level for play took: 0.001264
+[2017.10.07-20.03.47:836][535]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0010 seconds. Added 11 classes and 0 folders.
+[2017.10.07-20.03.47:841][535]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainMenu 0.183
+[2017.10.07-20.04.02:207][881]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2017.10.07-20.04.02:228][881]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2017.10.07-20.04.02:653][920]LogEditorActor: Deleted Actor: PlayerStart
+[2017.10.07-20.04.02:675][920]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2017.10.07-20.04.03:072][958]LogEditorActor: Deleted Actor: DirectionalLight
+[2017.10.07-20.04.03:090][958]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2017.10.07-20.04.03:528][998]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.10.07-20.04.03:546][998]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2017.10.07-20.04.04:028][ 41]LogEditorActor: Deleted Actor: AtmosphericFog
+[2017.10.07-20.04.04:051][ 41]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2017.10.07-20.04.05:228][152]LogTemp: Repeting last play command: Selected Viewport
+[2017.10.07-20.04.05:258][152]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.07-20.04.05:258][152]PIE: New page: PIE session: MainMenu (Oct 7, 2017, 12:04:05 PM)
+[2017.10.07-20.04.05:258][152]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMenu
+[2017.10.07-20.04.05:259][152]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000995s)
+[2017.10.07-20.04.05:260][152]LogAIModule: Creating AISystem for world MainMenu
+[2017.10.07-20.04.05:260][152]LogPlayLevel: PIE: World Init took: (0.000763s)
+[2017.10.07-20.04.05:260][152]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMenu.MainMenu to /Game/UEDPIE_0_MainMenu.MainMenu (0.002014s)
+[2017.10.07-20.04.05:300][152]LogInit: XAudio2 using 'Back of PC (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.07-20.04.05:319][152]LogInit: FAudioDevice initialized.
+[2017.10.07-20.04.05:354][152]LogLoad: Game class is 'MainMenuGameMode_C'
+[2017.10.07-20.04.05:356][152]LogWorld: Bringing World /Game/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2017.10.07-16.04.05
+[2017.10.07-20.04.05:356][152]LogWorld: Bringing up level for play took: 0.000713
+[2017.10.07-20.04.05:358][152]PIE: Info Play in editor start time for /Game/UEDPIE_0_MainMenu -0.3
+[2017.10.07-20.04.08:111][425]LogNet: Browse: /Game/HorrorPrototype
+[2017.10.07-20.04.08:111][425]LogLoad: LoadMap: /Game/HorrorPrototype
+[2017.10.07-20.04.08:130][425]Cmd: MEM
+[2017.10.07-20.04.08:152][425]LogMemory: Platform Memory Stats for Windows
+[2017.10.07-20.04.08:152][425]LogMemory: Process Physical Memory: 1342.18 MB used, 1370.37 MB peak
+[2017.10.07-20.04.08:152][425]LogMemory: Process Virtual Memory: 1842.87 MB used, 1893.37 MB peak
+[2017.10.07-20.04.08:152][425]LogMemory: Physical Memory: 7004.66 MB used,  9335.59 MB free, 16340.25 MB total
+[2017.10.07-20.04.08:152][425]LogMemory: Virtual Memory: 2668.99 MB used,  9335.59 MB free, 134217728.00 MB total
+[2017.10.07-20.04.08:152][425]LogMemory: 
+[2017.10.07-20.04.08:152][425]Allocator Stats for TBB: (not implemented)
+[2017.10.07-20.04.11:167][425]LogAIModule: Creating AISystem for world HorrorPrototype
+[2017.10.07-20.04.11:167][425]LogLoad: Game class is 'MovementSimulator_C'
+[2017.10.07-20.04.11:177][425]LogWorld: Bringing World /Game/UEDPIE_0_HorrorPrototype.HorrorPrototype up for play (max tick rate 0) at 2017.10.07-16.04.11
+[2017.10.07-20.04.11:179][425]LogWorld: Bringing up level for play took: 0.010150
+[2017.10.07-20.04.11:185][425]LogLoad: Took 3.073619 seconds to LoadMap(/Game/HorrorPrototype)
+[2017.10.07-20.05.25:248][442]LogLinker:Warning: Can't find file '/Game/MainMenu/MainMenuHUD'
+[2017.10.07-20.05.25:249][442]LogLinker:Warning: Can't find file for asset '/Game/MainMenu/MainMenuHUD' while loading D:/Alex/UnrealProjects/sep6/Content/MainMenu/MainMenuGameMode.uasset.
+[2017.10.07-20.05.25:249][442]LoadErrors:Error: Error /Game/MainMenu/MainMenuGameMode : Can't find file for asset. /Game/MainMenu/MainMenuHUD
+[2017.10.07-20.05.25:251][442]LogLinker:Warning: Can't find file '/Game/MainMenu/MainMenuHUD'
+[2017.10.07-20.05.25:251][442]LogLinker:Warning: Can't find file for asset '/Game/MainMenu/MainMenuHUD' while loading D:/Alex/UnrealProjects/sep6/Content/MainMenu/MainMenuGameMode.uasset.
+[2017.10.07-20.06.23:899][832]LogEditorFactories: Performing atomic reimport of [C:/Users/Alex Desktop/Desktop/Madhouse Desktop/MadhouseTitle.wmv]
+[2017.10.07-20.06.23:945][832]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Alex Desktop/Desktop/Madhouse Desktop/MadhouseTitle.wmv)
+[2017.10.07-20.06.23:997][832]Error: Texture import failed
+[2017.10.07-20.06.24:000][832]LogEditorFactories:Warning: -- import failed
+[2017.10.07-20.06.36:122][959]LogEditorFactories: Performing atomic reimport of [C:/Users/Alex Desktop/Desktop/Madhouse Desktop/MadhouseTitle.wmv]
+[2017.10.07-20.06.36:155][959]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Alex Desktop/Desktop/Madhouse Desktop/MadhouseTitle.wmv)
+[2017.10.07-20.06.36:204][959]Error: Texture import failed
+[2017.10.07-20.06.36:207][959]LogEditorFactories:Warning: -- import failed
+[2017.10.07-20.06.56:768][444]LogFactory: FactoryCreateFile: FileMediaSource with WmfFileMediaSourceFactory (0 0 C:\Users\Alex Desktop\Desktop\Madhouse Desktop\MovieMadhouseTitle.wmv)
+[2017.10.07-20.09.36:837][650]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu/MadhouseTitle" FILE="D:/Alex/UnrealProjects/sep6/Content/MainMenu/MadhouseTitle.uasset" SILENT=true
+[2017.10.07-20.09.36:905][650]LogSavePackage: Save=65.17ms
+[2017.10.07-20.09.36:905][650]LogSavePackage: Moving 'D:/Alex/UnrealProjects/sep6/Saved/MadhouseTitle424AAA824B1EE30B4F143FA5FB5E273B.tmp' to 'D:/Alex/UnrealProjects/sep6/Content/MainMenu/MadhouseTitle.uasset'
+[2017.10.07-20.09.36:908][650]LogSavePackage:Display: Finished SavePackage D:/Alex/UnrealProjects/sep6/Content/MainMenu/MadhouseTitle.uasset
+[2017.10.07-20.09.37:136][650]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenuWidget" FILE="D:/Alex/UnrealProjects/sep6/Content/MainMenuWidget.uasset" SILENT=true
+[2017.10.07-20.09.37:258][650]LogSavePackage: Save=96.56ms
+[2017.10.07-20.09.37:258][650]LogSavePackage: Moving 'D:/Alex/UnrealProjects/sep6/Saved/MainMenuWidget51F75E3C4509B0D6ED94A4BBE49343AE.tmp' to 'D:/Alex/UnrealProjects/sep6/Content/MainMenuWidget.uasset'
+[2017.10.07-20.09.37:261][650]LogSavePackage:Display: Finished SavePackage D:/Alex/UnrealProjects/sep6/Content/MainMenuWidget.uasset
+[2017.10.07-20.09.50:933][830]LogMetaData: Removing '/Game/MainMenu/MainMenuWidget.MainMenuWidget_C' ref from Metadata '/Game/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.09.50:933][830]LogMetaData: Removing '/Game/MainMenu/MainMenuWidget.MainMenuWidget_C:Slider_187' ref from Metadata '/Game/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.09.50:933][830]LogMetaData: Removing '/Game/MainMenu/MainMenuWidget.MainMenuWidget_C:QuitButton' ref from Metadata '/Game/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.09.50:933][830]LogMetaData: Removing '/Game/MainMenu/MainMenuWidget.MainMenuWidget_C:OptionsCanvasPanel' ref from Metadata '/Game/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.09.50:933][830]LogMetaData: Removing '/Game/MainMenu/MainMenuWidget.MainMenuWidget_C:OptionsBox' ref from Metadata '/Game/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.09.50:933][830]LogMetaData: Removing '/Game/MainMenu/MainMenuWidget.MainMenuWidget_C:MainCanvasPanel' ref from Metadata '/Game/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.09.50:933][830]LogMetaData: Removing '/Game/MainMenu/MainMenuWidget.MainMenuWidget_C:MainCanvas' ref from Metadata '/Game/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.09.50:933][830]LogMetaData: Removing '/Game/MainMenu/MainMenuWidget.MainMenuWidget_C:MainBox' ref from Metadata '/Game/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.09.50:933][830]LogMetaData: Removing '/Game/MainMenu/MainMenuWidget.MainMenuWidget_C:LaunchButton' ref from Metadata '/Game/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.09.50:933][830]LogMetaData: Removing '/Game/MainMenu/MainMenuWidget.MainMenuWidget_C:Image_71' ref from Metadata '/Game/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.09.50:933][830]LogMetaData: Removing '/Game/MainMenu/MainMenuWidget.MainMenuWidget_C:BackButton' ref from Metadata '/Game/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.09.50:933][830]LogMetaData: Removing '/Game/MainMenu/MainMenuWidget.MainMenuWidget_C:4K' ref from Metadata '/Game/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.09.50:933][830]LogMetaData: Removing '/Game/MainMenu/MainMenuWidget.MainMenuWidget_C:1920' ref from Metadata '/Game/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.09.50:933][830]LogMetaData: Removing '/Game/MainMenu/MainMenuWidget.MainMenuWidget_C:1280' ref from Metadata '/Game/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.09.50:933][830]LogMetaData: Removing '/Game/MainMenu/MainMenuWidget.MainMenuWidget_C:ExecuteUbergraph_MainMenuWidget' ref from Metadata '/Game/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.09.50:933][830]LogMetaData: Removing '/Game/MainMenu/MainMenuWidget.SKEL_MainMenuWidget_C' ref from Metadata '/Game/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.09.50:933][830]LogMetaData: Removing '/Game/MainMenu/MainMenuWidget.SKEL_MainMenuWidget_C:Slider_187' ref from Metadata '/Game/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.09.50:933][830]LogMetaData: Removing '/Game/MainMenu/MainMenuWidget.SKEL_MainMenuWidget_C:QuitButton' ref from Metadata '/Game/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.09.50:933][830]LogMetaData: Removing '/Game/MainMenu/MainMenuWidget.SKEL_MainMenuWidget_C:OptionsCanvasPanel' ref from Metadata '/Game/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.09.50:933][830]LogMetaData: Removing '/Game/MainMenu/MainMenuWidget.SKEL_MainMenuWidget_C:OptionsBox' ref from Metadata '/Game/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.09.50:933][830]LogMetaData: Removing '/Game/MainMenu/MainMenuWidget.SKEL_MainMenuWidget_C:MainCanvasPanel' ref from Metadata '/Game/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.09.50:933][830]LogMetaData: Removing '/Game/MainMenu/MainMenuWidget.SKEL_MainMenuWidget_C:MainCanvas' ref from Metadata '/Game/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.09.50:933][830]LogMetaData: Removing '/Game/MainMenu/MainMenuWidget.SKEL_MainMenuWidget_C:MainBox' ref from Metadata '/Game/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.09.50:933][830]LogMetaData: Removing '/Game/MainMenu/MainMenuWidget.SKEL_MainMenuWidget_C:LaunchButton' ref from Metadata '/Game/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.09.50:933][830]LogMetaData: Removing '/Game/MainMenu/MainMenuWidget.SKEL_MainMenuWidget_C:Image_71' ref from Metadata '/Game/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.09.50:933][830]LogMetaData: Removing '/Game/MainMenu/MainMenuWidget.SKEL_MainMenuWidget_C:BackButton' ref from Metadata '/Game/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.09.50:933][830]LogMetaData: Removing '/Game/MainMenu/MainMenuWidget.SKEL_MainMenuWidget_C:4K' ref from Metadata '/Game/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.09.50:933][830]LogMetaData: Removing '/Game/MainMenu/MainMenuWidget.SKEL_MainMenuWidget_C:1920' ref from Metadata '/Game/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.09.50:933][830]LogMetaData: Removing '/Game/MainMenu/MainMenuWidget.SKEL_MainMenuWidget_C:1280' ref from Metadata '/Game/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.09.50:933][830]LogMetaData: Removing '/Game/MainMenu/MainMenuWidget.SKEL_MainMenuWidget_C:ExecuteUbergraph_MainMenuWidget' ref from Metadata '/Game/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.09.50:933][830]LogMetaData: Removing '/Game/MainMenu/MainMenuWidget.MainMenuWidget:EventGraph.K2Node_Event_0' ref from Metadata '/Game/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.09.50:933][830]LogMetaData: Removing '/Game/MainMenu/MainMenuWidget.MainMenuWidget:EventGraph.K2Node_Event_1' ref from Metadata '/Game/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.09.50:933][830]LogMetaData: Removing '/Game/MainMenu/MainMenuWidget.MainMenuWidget:EventGraph.K2Node_Event_2' ref from Metadata '/Game/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.09.50:933][830]LogMetaData: Removing '/Game/MainMenu/MainMenuWidget.MainMenuWidget:GetVisibility_0.K2Node_FunctionResult_0' ref from Metadata '/Game/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.09.50:933][830]LogMetaData: Removing '/Game/MainMenu/MainMenuWidget.MainMenuWidget:GetVisibility_0.K2Node_FunctionEntry_0' ref from Metadata '/Game/MainMenuWidget.PackageMetaData'
+[2017.10.07-20.09.50:936][830]LogMetaData: Removing '/Game/MainMenu/MainMenuHUD.MainMenuHUD_C' ref from Metadata '/Game/MainMenuHUD.PackageMetaData'
+[2017.10.07-20.09.50:936][830]LogMetaData: Removing '/Game/MainMenu/MainMenuHUD.MainMenuHUD_C:DefaultSceneRoot' ref from Metadata '/Game/MainMenuHUD.PackageMetaData'
+[2017.10.07-20.09.50:936][830]LogMetaData: Removing '/Game/MainMenu/MainMenuHUD.MainMenuHUD_C:ExecuteUbergraph_MainMenuHUD' ref from Metadata '/Game/MainMenuHUD.PackageMetaData'
+[2017.10.07-20.09.50:936][830]LogMetaData: Removing '/Game/MainMenu/MainMenuHUD.MainMenuHUD_C:ReceiveBeginPlay' ref from Metadata '/Game/MainMenuHUD.PackageMetaData'
+[2017.10.07-20.09.50:936][830]LogMetaData: Removing '/Game/MainMenu/MainMenuHUD.MainMenuHUD_C:UserConstructionScript' ref from Metadata '/Game/MainMenuHUD.PackageMetaData'
+[2017.10.07-20.09.50:936][830]LogMetaData: Removing '/Game/MainMenu/MainMenuHUD.SKEL_MainMenuHUD_C' ref from Metadata '/Game/MainMenuHUD.PackageMetaData'
+[2017.10.07-20.09.50:936][830]LogMetaData: Removing '/Game/MainMenu/MainMenuHUD.SKEL_MainMenuHUD_C:DefaultSceneRoot' ref from Metadata '/Game/MainMenuHUD.PackageMetaData'
+[2017.10.07-20.09.50:937][830]LogMetaData: Removing '/Game/MainMenu/MainMenuHUD.SKEL_MainMenuHUD_C:ExecuteUbergraph_MainMenuHUD' ref from Metadata '/Game/MainMenuHUD.PackageMetaData'
+[2017.10.07-20.09.50:937][830]LogMetaData: Removing '/Game/MainMenu/MainMenuHUD.SKEL_MainMenuHUD_C:ReceiveBeginPlay' ref from Metadata '/Game/MainMenuHUD.PackageMetaData'
+[2017.10.07-20.09.50:937][830]LogMetaData: Removing '/Game/MainMenu/MainMenuHUD.SKEL_MainMenuHUD_C:UserConstructionScript' ref from Metadata '/Game/MainMenuHUD.PackageMetaData'
+[2017.10.07-20.09.50:937][830]LogMetaData: Removing '/Game/MainMenu/MainMenuHUD.MainMenuHUD:EventGraph.K2Node_Event_0' ref from Metadata '/Game/MainMenuHUD.PackageMetaData'
+[2017.10.07-20.09.50:937][830]LogMetaData: Removing '/Game/MainMenu/MainMenuHUD.MainMenuHUD:EventGraph.K2Node_Event_1' ref from Metadata '/Game/MainMenuHUD.PackageMetaData'
+[2017.10.07-20.09.50:937][830]LogMetaData: Removing '/Game/MainMenu/MainMenuHUD.MainMenuHUD:EventGraph.K2Node_Event_2' ref from Metadata '/Game/MainMenuHUD.PackageMetaData'
+[2017.10.07-20.09.50:937][830]LogMetaData: Removing '/Game/MainMenu/MainMenuHUD.MainMenuHUD:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/MainMenuHUD.PackageMetaData'
+[2017.10.07-20.09.51:063][830]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu/MainMenu" FILE="D:/Alex/UnrealProjects/sep6/Content/MainMenu/MainMenu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.07-20.09.51:144][830]LogSavePackage: Save=22.72ms
+[2017.10.07-20.09.51:145][830]LogSavePackage: Moving 'D:/Alex/UnrealProjects/sep6/Saved/MainMenu40827EA3461D1694AE59FBA61D05B16A.tmp' to 'D:/Alex/UnrealProjects/sep6/Content/MainMenu/MainMenu.umap'
+[2017.10.07-20.09.51:149][830]LogSavePackage:Display: Finished SavePackage D:/Alex/UnrealProjects/sep6/Content/MainMenu/MainMenu.umap
+[2017.10.07-20.09.51:195][830]LogFileHelpers: Saving map 'MainMenu' took 0.224
+[2017.10.07-20.09.51:197][830]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu/MainMenuWidget" FILE="D:/Alex/UnrealProjects/sep6/Content/MainMenu/MainMenuWidget.uasset" SILENT=true
+[2017.10.07-20.09.51:307][830]LogSavePackage: Save=106.80ms
+[2017.10.07-20.09.51:307][830]LogSavePackage: Moving 'D:/Alex/UnrealProjects/sep6/Saved/MainMenuWidget717737524A2F878D51006B838BEF7B6A.tmp' to 'D:/Alex/UnrealProjects/sep6/Content/MainMenu/MainMenuWidget.uasset'
+[2017.10.07-20.09.51:310][830]LogSavePackage:Display: Finished SavePackage D:/Alex/UnrealProjects/sep6/Content/MainMenu/MainMenuWidget.uasset
+[2017.10.07-20.09.51:315][830]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu/MainMenuHUD" FILE="D:/Alex/UnrealProjects/sep6/Content/MainMenu/MainMenuHUD.uasset" SILENT=true
+[2017.10.07-20.09.51:347][830]LogSavePackage: Save=29.78ms
+[2017.10.07-20.09.51:347][830]LogSavePackage: Moving 'D:/Alex/UnrealProjects/sep6/Saved/MainMenuHUD4688DB4047B1179F8D552DA30AFCDB09.tmp' to 'D:/Alex/UnrealProjects/sep6/Content/MainMenu/MainMenuHUD.uasset'
+[2017.10.07-20.09.51:351][830]LogSavePackage:Display: Finished SavePackage D:/Alex/UnrealProjects/sep6/Content/MainMenu/MainMenuHUD.uasset
+[2017.10.07-20.09.58:505][283]LogAIModule: Creating AISystem for world Untitled
+[2017.10.07-20.09.59:942][283]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenu" FILE="D:/Alex/UnrealProjects/sep6/Content/MainMenu.umap" SILENT=true
+[2017.10.07-20.09.59:963][283]LogSavePackage: Save=6.56ms
+[2017.10.07-20.09.59:963][283]LogSavePackage: Moving 'D:/Alex/UnrealProjects/sep6/Saved/MainMenuE22C6BD541484FDCB1CEE593DB09DCD3.tmp' to 'D:/Alex/UnrealProjects/sep6/Content/MainMenu.umap'
+[2017.10.07-20.09.59:967][283]LogSavePackage:Display: Finished SavePackage D:/Alex/UnrealProjects/sep6/Content/MainMenu.umap
+[2017.10.07-20.09.59:968][283]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainMenuGameMode" FILE="D:/Alex/UnrealProjects/sep6/Content/MainMenuGameMode.uasset" SILENT=true
+[2017.10.07-20.09.59:996][283]LogSavePackage: Save=7.62ms
+[2017.10.07-20.09.59:996][283]LogSavePackage: Moving 'D:/Alex/UnrealProjects/sep6/Saved/MainMenuGameMode10A405C7426B5F617CA68DA992188B17.tmp' to 'D:/Alex/UnrealProjects/sep6/Content/MainMenuGameMode.uasset'
+[2017.10.07-20.09.59:999][283]LogSavePackage:Display: Finished SavePackage D:/Alex/UnrealProjects/sep6/Content/MainMenuGameMode.uasset
+[2017.10.07-20.10.00:001][283]Cmd: MAP LOAD FILE="D:/Alex/UnrealProjects/sep6/Content/Untitled.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.07-20.10.00:001][283]LightingResults: New page: Lighting Build
+[2017.10.07-20.10.00:002][283]LoadErrors: New page: Loading map: Untitled.umap
+[2017.10.07-20.10.00:003][283]MapCheck: New page: Map Check
+[2017.10.07-20.10.00:003][283]LightingResults: New page: Lighting Build
+[2017.10.07-20.10.00:136][283]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.07-20.10.00:206][283]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.07-20.10.00:297][283]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 90.943ms to complete.
+[2017.10.07-20.10.00:297][283]LogFileHelpers: Loading map 'Untitled' took 0.297
+[2017.10.07-20.10.06:942][728]LightingResults: New page: Lighting Build
+[2017.10.07-20.10.06:943][728]MapCheck: New page: Map Check
+[2017.10.07-20.10.06:943][728]LightingResults: New page: Lighting Build
+[2017.10.07-20.10.06:969][728]LogAIModule: Creating AISystem for world Untitled
+[2017.10.07-20.10.07:084][728]LoadErrors: New page: New Map
+[2017.10.07-20.10.07:102][728]LogAIModule: Creating AISystem for world Untitled
+[2017.10.07-20.10.08:807][845]LogAIModule: Creating AISystem for world TestMap
+[2017.10.07-20.10.08:844][845]Cmd: MAP LOAD FILE="D:/Alex/UnrealProjects/sep6/Content/TestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.07-20.10.08:845][845]LightingResults: New page: Lighting Build
+[2017.10.07-20.10.08:846][845]LoadErrors: New page: Loading map: TestMap.umap
+[2017.10.07-20.10.08:846][845]MapCheck: New page: Map Check
+[2017.10.07-20.10.08:846][845]LightingResults: New page: Lighting Build
+[2017.10.07-20.10.09:034][845]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.07-20.10.09:104][845]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.07-20.10.09:195][845]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 90.384ms to complete.
+[2017.10.07-20.10.09:195][845]LogFileHelpers: Loading map 'TestMap' took 0.352
+[2017.10.07-20.10.13:006][ 93]LightingResults: New page: Lighting Build
+[2017.10.07-20.10.13:007][ 93]MapCheck: New page: Map Check
+[2017.10.07-20.10.13:007][ 93]LightingResults: New page: Lighting Build
+[2017.10.07-20.10.13:032][ 93]LogAIModule: Creating AISystem for world Untitled
+[2017.10.07-20.10.13:190][ 93]LoadErrors: New page: New Map
+[2017.10.07-20.10.13:205][ 93]LogAIModule: Creating AISystem for world TestMap
+[2017.10.07-20.10.17:780][255]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SM_Shell_45ap_Empty' or package '/Engine/Transient'.
+[2017.10.07-20.10.17:781][255]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'TRASH_StaticMeshComponent_6' or package '/Engine/Transient'.
+[2017.10.07-20.10.21:397][398]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.320 s
+[2017.10.07-20.10.21:397][398]LogOutputDevice:Error: === Handled ensure: ===
+[2017.10.07-20.10.21:397][398]LogOutputDevice:Error: 
+[2017.10.07-20.10.21:397][398]LogOutputDevice:Error: Ensure condition failed: ChildActorTemplate == nullptr [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Runtime\Engine\Private\Components\ChildActorComponent.cpp] [Line: 95]
+[2017.10.07-20.10.21:397][398]LogOutputDevice:Error: Found unexpected ChildActorTemplate REINST_M1911_BP_C_81 /Game/Alex.Alex_C:M1911_GEN_VARIABLE.M1911_GEN_VARIABLE_M1911_C_CAT when ChildActorClass is null
+[2017.10.07-20.10.21:397][398]LogOutputDevice:Error: Stack: 
+[2017.10.07-20.10.21:397][398]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000501EE2B6
+[2017.10.07-20.10.21:397][398]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000004FF9B8C2
+[2017.10.07-20.10.21:397][398]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000004FFB1E86
+[2017.10.07-20.10.21:397][398]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000420E1F11
+[2017.10.07-20.10.21:397][398]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000004F8CC9C3
+[2017.10.07-20.10.21:397][398]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000039388775
+[2017.10.07-20.10.21:397][398]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000395FD518
+[2017.10.07-20.10.21:397][398]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000039A5A47C
+[2017.10.07-20.10.21:397][398]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000039A58C71
+[2017.10.07-20.10.21:397][398]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000392BBE99
+[2017.10.07-20.10.21:397][398]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000039529BF2
+[2017.10.07-20.10.21:397][398]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000394A5E22
+[2017.10.07-20.10.21:397][398]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000394A8859
+[2017.10.07-20.10.21:397][398]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000039523A75
+[2017.10.07-20.10.21:397][398]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000004F4B8F57
+[2017.10.07-20.10.21:397][398]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000004F4E5D7B
+[2017.10.07-20.10.21:397][398]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000004F309E9C
+[2017.10.07-20.10.21:398][398]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000004F2D9835
+[2017.10.07-20.10.21:398][398]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000004F37E5E2
+[2017.10.07-20.10.21:398][398]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000004F36720F
+[2017.10.07-20.10.21:398][398]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000004F358391
+[2017.10.07-20.10.21:398][398]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000501E175B
+[2017.10.07-20.10.21:398][398]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000501CB7D1
+[2017.10.07-20.10.21:398][398]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000501E33DB
+[2017.10.07-20.10.21:398][398]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000501C7B22
+[2017.10.07-20.10.21:398][398]LogOutputDevice:Error: USER32.dll!0x000000008449BC50
+[2017.10.07-20.10.21:398][398]LogOutputDevice:Error: USER32.dll!0x000000008449B5CF
+[2017.10.07-20.10.21:398][398]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000501E3C49
+[2017.10.07-20.10.21:398][398]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000004F389A86
+[2017.10.07-20.10.21:398][398]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000004F313013
+[2017.10.07-20.10.21:398][398]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000395B4B7F
+[2017.10.07-20.10.21:398][398]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000039A4C735
+[2017.10.07-20.10.21:398][398]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000039A4BEC6
+[2017.10.07-20.10.21:398][398]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000002BE59D11
+[2017.10.07-20.10.21:398][398]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000002BF90883
+[2017.10.07-20.10.21:398][398]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000002BF65121
+[2017.10.07-20.10.21:398][398]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000002BF6CFF6
+[2017.10.07-20.10.21:398][398]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000004F31EB50
+[2017.10.07-20.10.21:398][398]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000004F363D60
+[2017.10.07-20.10.21:398][398]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000002BFC0BF9
+[2017.10.07-20.10.21:398][398]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000004F309021
+[2017.10.07-20.10.21:398][398]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000004F2D840E
+[2017.10.07-20.10.21:398][398]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000004F2DA006
+[2017.10.07-20.10.21:398][398]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000004F3655AD
+[2017.10.07-20.10.21:398][398]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000004F356518
+[2017.10.07-20.10.21:398][398]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000501E149C
+[2017.10.07-20.10.21:398][398]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000501CB7D1
+[2017.10.07-20.10.21:398][398]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000501E33DB
+[2017.10.07-20.10.21:398][398]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000501C7B22
+[2017.10.07-20.10.21:398][398]LogOutputDevice:Error: USER32.dll!0x000000008449BC50
+[2017.10.07-20.10.21:398][398]LogOutputDevice:Error: USER32.dll!0x000000008449B5CF
+[2017.10.07-20.10.21:398][398]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000501E3CE6
+[2017.10.07-20.10.21:398][398]LogOutputDevice:Error: UE4Editor.exe!0x0000000029AFDB44
+[2017.10.07-20.10.21:398][398]LogOutputDevice:Error: UE4Editor.exe!0x0000000029AEF0B0
+[2017.10.07-20.10.21:398][398]LogOutputDevice:Error: UE4Editor.exe!0x0000000029AEF12A
+[2017.10.07-20.10.21:398][398]LogOutputDevice:Error: UE4Editor.exe!0x0000000029B00CF9
+[2017.10.07-20.10.21:398][398]LogOutputDevice:Error: UE4Editor.exe!0x0000000029B025F7
+[2017.10.07-20.10.21:398][398]LogOutputDevice:Error: KERNEL32.DLL!0x0000000084252774
+[2017.10.07-20.10.21:398][398]LogOutputDevice:Error: ntdll.dll!0x0000000084650D51
+[2017.10.07-20.10.21:398][398]LogOutputDevice:Error: 
+[2017.10.07-20.10.21:402][398]LogStats:                SubmitErrorReport -  0.000 s
